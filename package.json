@@ -1,0 +1,47 @@
+{
+    "name": "r6a-05-project",
+    "version": "1.0.0",
+    "description": "NodeJS Project for R6A.05 - Movie Library API",
+    "main": "lib/index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "start": "node lib/index.js",
+        "test": "lab -v -a @hapi/code -L",
+        "knex": "knex"
+    },
+    "keywords": [
+        "hapi",
+        "nodejs",
+        "api"
+    ],
+    "author": "Ruben Durand",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/boom": "^10.0.0",
+        "@hapi/glue": "^9.0.0",
+        "@hapi/hapi": "^21.0.0",
+        "@hapi/inert": "^7.0.0",
+        "@hapi/vision": "^7.0.0",
+        "@hapipal/schmervice": "^3.0.0",
+        "@hapipal/schwifty": "^6.2.0",
+        "amqplib": "^0.10.0",
+        "bcrypt": "^6.0.0",
+        "dotenv": "^16.0.0",
+        "hapi-auth-jwt2": "^10.0.0",
+        "hapi-swagger": "^17.0.0",
+        "joi": "^17.0.0",
+        "jsonwebtoken": "^9.0.0",
+        "knex": "^3.0.0",
+        "nodemailer": "^6.9.0",
+        "objection": "^3.0.0",
+        "sqlite3": "^5.1.0"
+    },
+    "devDependencies": {
+        "@hapi/code": "^9.0.0",
+        "@hapi/lab": "^25.0.0",
+        "nodemon": "^3.0.0"
+    }
+}
